@@ -1,0 +1,82 @@
+body{color:#333; font-size:14px; margin:0; padding:0; font-family:"寰蒋闆呴粦";}
+ul,li,dl,dt,dd,p,form,h1,h2,h3,h4,h5,h6,p,img,div,input{padding:0px; margin:0px; list-style:none; font-weight:normal;}
+img{border:0;}
+a{color:#666; text-decoration:none;}
+a:hover{color: #ff0000;}
+.warpper{ width:1200px; margin:0px auto; }
+.clear{ clear:both;}
+.red{ color:red;}
+.left{ float:left;}
+.right{ float:right;}
+/*头部样式*/
+.header_page{height: 200px;
+    background:url(../header.png) no-repeat center bottom; background-size: 1200px 200PX;
+    background-color: #14191d;
+}
+.header{ height:700px; }
+.top{ overflow:hidden;}
+.logo{ width:168px; height:38px;  float:left; margin-left:23px; margin-top:30px; display:inline;}
+.logo a{width:168px; height:38px;display:block; background:url(bj.jpg) no-repeat left center;}
+
+.menu{ height:60px; line-height:60px;  float:left; overflow:hidden; margin-left:15px; display:inline; }
+.menu ul li{ float:left; width:100px; text-align:center; font-weight:bold;}
+.menu ul li a{ display:block;  color: #ffffff;}
+.menu ul li a:hover{color: #ffffff;}
+.menu ul li.cur a{ color:#FFFF00;}
+.head_right{ float:right; width:250px; margin-top:42px;}
+.head_right a{ float:left; width:62px; height:32px; color:#fff; line-height:32px; margin-right:20px; border:1px solid #cac5c1; padding-left:40px; font-weight:bold;}
+.head_right a.talk{ background:url(../images/hand.png) no-repeat 5px center;}
+.head_right a.join{ background:url(../images/join.png) no-repeat 5px center;}
+
+.module{ width:928px; height:75px; margin:408px auto; margin-bottom:0;}
+.module a{ float:left; width:178px; height:70px; padding-top:5px; display:block;border:2px solid #ffffff; text-align:center; margin-left:25px; margin-right:25px; color: #ffffff; font-size:30px;}
+.module a span{ font-size:10px; display:block; margin-top:5px;}
+/*椤堕儴缁撴潫*/
+
+/*棣栭〉涓棿妯″潡*/
+.common_title{ width:226px; text-align:center; margin:0 auto; background:url(../images/line.jpg) no-repeat center bottom; height:60px; overflow:hidden; font-size:30px; margin-bottom:35px;}
+.common_title span{ font-size:10px; display:block;}
+.pic{ text-align:center;}
+.common_content{ background:url(../images/about_bg.png) no-repeat left top; width:319px; height:162px; padding:20px 23px;}
+.common_content h3{ font-size:16px; font-weight:bold;}
+.common_content h3 span{ margin-left:10px;}
+.common_content .txt{ line-height:26px; margin-top:8px;}
+
+.index_news{line-height:26px; margin-top:8px;}
+.index_news a{ display:block; }
+.index_news a span{ float:right;}
+.index_news a em{ font-style:normal; width:230px;overflow: hidden; white-space: nowrap; text-overflow: ellipsis; float:left;}
+
+
+.index_about{ margin-top:110px; overflow:hidden;}
+.index_about ul li{ float:left; width:365px; margin-left:26px; display:inline;}
+
+.index_culture{ margin-top:105px; overflow:hidden;}
+.culture_scroll{ width:1240px; position:relative; margin-left:3px;}
+.index_culture ul li{ float:left; margin-right:38px; height:270px; margin-bottom:38px; overflow:hidden;}
+.index_culture ul li a{ display:block; position:relative;}
+.index_culture ul li a .culture_txt{ position:absolute; height:119px; padding-top:25px; top:59px; border-top:2px solid #fff; border-bottom:2px solid #fff; font-size:30px; text-align:center; color:#fff; }
+.index_culture ul li a .culture_txt span{ font-size:18px; display:block; margin-top:30px;}
+.big_pic{left:95px; width:365px; }
+.small_pic{left:21px; width:226px; }
+
+.index_business{ margin-top:36px; overflow:hidden; margin-bottom:200px;}
+.business_scroll{ width:1248px; position:relative;}
+.index_business ul li{ float:left; width:453px; height:243px; background:url(../images/business_bg.png) no-repeat left center; margin-left:22px; margin-right:68px; padding:25px 40px; font-size:18px;}
+.business_scroll h3{text-align:center;  font-size:30px;}
+.business_scroll h3 span{ font-size:13px; display:block; margin-bottom:2px;}
+.business_scroll .txt{ line-height:40px; margin-top:15px;}
+.business_scroll .contact{ margin-top:15px; font-weight:bold;}
+/*棣栭〉涓棿妯″潡缁撴潫*/
+
+/*搴曢儴瀵艰埅*/
+.site_map{ background:#2d3e50; height:300px; overflow:hidden;}
+.site_map ul { margin:40px auto; width:1200px;}
+.site_map ul  li{ width:230px; line-height:30px;  float:left;  height:220px; padding-left:50px;}
+.site_map ul  li span{ display:block; font-weight:bold; color:#fff; font-size:16px; margin-bottom:28px;}
+.site_map ul  li a{ display:block; color:#fff; margin-left:3px;}
+.site_map ul  li.last{ width:300px; border-left:1px solid #fff; float:right;}
+.site_map ul  li.last span{ width:186px; display:block; font-size:16px; font-weight:bold; text-align:center; color:#fff; margin-bottom:8px; line-height:24px;}
+/*搴曢儴瀵艰埅缁撴潫*/
+
+.footer{ height:38px; line-height:38px;  background:#18222c; color:#fff;}
